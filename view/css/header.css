@@ -1,0 +1,56 @@
+/*geral*/
+
+body, h2, h1, p{
+    margin: 0;
+    font-family: 'Varta', sans-serif;
+}
+
+h2{
+    font-size: 30px;
+}
+
+/* navbar */
+
+#navbar h2, #navbar ul, #nav-list li, #navbar nav li {
+    display: inline-block;
+}
+
+#navbar{
+    background-color: rgb(12, 73, 17);
+    color: rgba(255, 255, 255, 0.993);
+    padding: 0 15px;
+    height: 80px;
+}
+
+#navbar h2{
+    margin: 0;
+    line-height: 85px;
+    margin-left: 120px;
+}
+
+#navbar li{
+    margin: 0 10px;
+}
+
+#navbar nav{
+    float: right;
+}
+
+#navbar ul{
+    margin-top: 30px;
+}
+
+#navbar img{
+    height: 80px;
+    position: absolute;
+    left: 45px;
+}
+
+#nav-list li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.993);
+}
+
+#nav-list li a:hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.993);
+}

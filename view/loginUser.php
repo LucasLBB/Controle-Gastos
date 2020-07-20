@@ -4,23 +4,38 @@
 <head>
     <title>Controle de Gastos</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/loginUser.css">
 </head>
-
 <body>
-    <form action="../controller/login.php" method="POST">
-        <div>
-            <input type="email" name="email" placeholder="E-mail">
-        </div>
 
-        <div>
-            <input type="password" name="senha" placeholder="Senha">
-        </div>
+    <?php
+    include "header.php";
+    ?>
 
-        <div>
-            <input type="submit" value="Logar">
-        </div>
-    </form>
+    <!--Inicio do Conteúdo Principal-->
+    <main>
 
+        <h1>Entre com sua conta</h1>
+
+        <form action="../controller/login.php" method="POST">
+
+            <div><input type="email" id="email" name="email" placeholder="E-mail"></div>
+
+            <div><input type="password" id="senha" name="senha" placeholder="Senha"></div>
+
+            <div><input type="submit" id="btnLog" value="Logar"></div>
+            
+            <div><p>Não possui uma conta?</p><a href="cadastroUser.php" id="newAccount">Crie aqui!</a></div>
+
+        </form>
+    </main>
+    <!--Fim do Conteúdo Principal-->
+    <!--Inicio do Footer-->
+    <footer>
+        <nav id="nav-footer">
+            <p>Desenvolvido por Lucas de Lima</p>
+        </nav>
+    </footer>
+    <!--Fim do Footer-->
 </body>
-
 </html>

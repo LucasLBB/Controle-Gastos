@@ -1,3 +1,4 @@
+//Adiciona linhas
 const btnAdd = document.querySelector('a.add').addEventListener('click', function(){
     var table = document.getElementById('tabela')
     var row = table.insertRow(2)
@@ -47,7 +48,6 @@ function somenteLN(e){
 		return false
 	}
 }
-
 
 
 

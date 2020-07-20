@@ -11,6 +11,11 @@
     <title>Resultado</title>
 </head>
 <body>
+    
+    <?php 
+    include "header.php";
+    ?>
+
     <?php retornaLinhas($execSelect, $dadosItem)?>
 </body>
 </html>

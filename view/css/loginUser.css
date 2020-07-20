@@ -1,0 +1,43 @@
+/* main */
+
+h1, p{
+    text-align: center;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+#newAccount{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.993);
+}
+
+form{
+    text-align: center;
+}
+
+#email , #senha, #btnLog{
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: 'Varta', sans-serif;
+    border-color: rgb(12, 73, 17);
+    outline: none;
+}
+
+main{
+    padding: 250px;
+    height: 75vh;
+    background-image: url('../img/fundoInv.jpg');
+    background-repeat: round;
+    background-size: cover;
+    padding-top: 10vh;
+}
+
+/* footer */
+
+#nav-footer p{
+    margin: 0;
+    text-align: center;
+    color:rgb(224, 224, 224);
+    background-color: rgb(12, 73, 17);
+}
