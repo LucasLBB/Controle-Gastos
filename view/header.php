@@ -7,7 +7,7 @@
 <body>
     <!--Inicio do Header-->
     <header id="navbar">
-        <img src="img/logo-money.png" alt="Logo de Dinheiro">
+        <img src="img/logo.png" alt="Logo">
         <h2>Controle de Gastos</h2>
         <nav>
             <ul id="nav-list">
