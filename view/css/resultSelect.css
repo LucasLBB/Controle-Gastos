@@ -1,0 +1,66 @@
+/* geral da tabela */
+#tabela {
+    width: 100%;
+    font-family: 'Varta', sans-serif;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+html{
+    background-color: rgb(12, 73, 17);
+}
+
+td, th {
+    padding: 1em;
+}
+
+/* thead */
+thead{
+    background-color: rgb(0, 0, 0);
+    color: #FFF;
+}
+
+/* corpo da tabela */
+tbody {
+    background-color: rgb(216, 218, 219);
+}
+
+#corpo-tabela tr td {
+    text-align: center;
+}
+
+#corpo-tabela, #imgAlt{
+    margin-right: -55px;
+}
+
+#corpo-tabela, #imgDel{
+    margin-right: 0px;
+}
+
+
+/* tfoot */
+tfoot tr {
+    background-color: rgb(12, 73, 17);
+    color: #FFF;  
+    text-align: center;
+}
+
+/* exibição dos Gastos */
+
+#exibirGastos{
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+    width: 250px;
+    height: 55px;
+    margin: 50px;
+    margin-left: 560px;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;  
+    color: #FFF;
+}

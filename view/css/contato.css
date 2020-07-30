@@ -1,0 +1,42 @@
+/*body*/
+body{
+    background-color: rgb(216, 218, 219);
+}
+
+/* main */
+
+main h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(12, 73, 17);
+    font-size: 4em;
+}
+
+main p{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(12, 73, 17);
+    font-size: 25px;
+}
+
+/* form */
+main form input{
+    width: 16.7%;
+    display: block;
+    margin: 20px;
+    margin-left: 565px;
+    border: rgb(12, 73, 17) 1px solid;
+}
+
+#msg{
+    border: rgb(12, 73, 17) 1px solid;
+}
+
+main form{
+    text-align: center;
+    border: rgb(12, 73, 17) 1px solid;  
+}
+
+#btnMsg{
+    margin-left: 570px;
+}

@@ -1,0 +1,42 @@
+/* main */
+h1{
+    text-align: center;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+main{
+    padding: 250px;
+    height: 75vh;
+    background-image: url('../img/fundoInv.jpg');
+    background-repeat: round;
+    background-size: cover;
+    padding-top: 10vh;
+}
+
+form{
+    text-align: center;
+}
+
+#nome, #email , #senha, #btnCad{
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: 'Varta', sans-serif;
+    border-color: rgb(12, 73, 17);
+    outline: none;
+}
+
+#resultado{
+    margin-left: 510px;
+    margin-top: -60px;
+    color: #FFF;
+}
+
+/* footer */
+#footer-cadastro p{
+    margin: 0;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(12, 73, 17);
+}

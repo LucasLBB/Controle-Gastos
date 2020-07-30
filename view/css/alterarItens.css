@@ -1,0 +1,24 @@
+/* main */
+main h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(12, 73, 17);
+    font-size: 4em;
+}
+
+form{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(187, 187, 187);
+}
+
+#desc , #val, #qtd, #btnAlt{
+    width: 150px;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: 'Varta', sans-serif;
+    border-color: rgb(12, 73, 17);
+    outline: none;
+}
