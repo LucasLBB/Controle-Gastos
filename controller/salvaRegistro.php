@@ -35,7 +35,6 @@ $modify = str_replace(["(", ")", "'"], "", $values);
 //Retira as vírgulas e tranforma em Array
 $arrayValues = explode(",", $modify);
 
-
 //Percorre o array, caso encontre um valor vazio, adiciona o valor true à variavel $erro
 foreach ($arrayValues as $value => $key) {
    if (empty($key)) {

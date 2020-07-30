@@ -10,14 +10,14 @@ require_once "../model/conexao.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta de Gastos</title>
-    <link rel="stylesheet" href="css/consultarGAstos.css">
+    <link rel="stylesheet" href="css/consultarGastos.css">
 </head>
 <body>
 
     <?php
     include "header.php";
     ?>
-
+    <!--Página para consultar os gastos do mês escolhido-->
     <main>
 
         <h1>Selecione o Mês desejado!</h1>
@@ -45,13 +45,5 @@ require_once "../model/conexao.php";
 
         </form>
     </main>
-
-<!--Inicio do Footer-->
-<footer>
-        <nav id="nav-footer-consulta">
-            <p>Desenvolvido por Lucas de Lima</p>
-        </nav>
-</footer>
-    <!--Fim do Footer-->
 </body>
 </html>

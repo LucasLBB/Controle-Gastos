@@ -65,10 +65,3 @@ tfoot tr {
     text-align: center;
 }
 
-/* footer */
-#nav-footer-restrito p{
-    margin: 0;
-    text-align: center;
-    color:rgb(224, 224, 224);
-    background-color: rgb(12, 73, 17);
-}

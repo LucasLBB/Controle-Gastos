@@ -31,10 +31,8 @@
     </main>
     <!--Fim do Conteúdo Principal-->
     <!--Inicio do Footer-->
-    <footer>
-        <nav id="nav-footer">
-            <p>Desenvolvido por Lucas de Lima</p>
-        </nav>
+    <footer id="footer-login"> 
+        <p>Desenvolvido por Lucas de Lima</p>
     </footer>
     <!--Fim do Footer-->
 </body>

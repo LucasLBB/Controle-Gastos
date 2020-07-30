@@ -12,7 +12,7 @@
         <nav>
             <ul id="nav-list">
                 <li><a href="#">Ajuda</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="contato.php">Contato</a></li>
                 <li><a href="#">Sobre o Autor</a></li>
             </ul>
         </nav>

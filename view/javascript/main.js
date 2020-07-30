@@ -3,9 +3,9 @@ const btnAdd = document.querySelector('a.add').addEventListener('click', functio
     var table = document.getElementById('tabela')
     var row = table.insertRow(2)
 
-row.insertCell(0).innerHTML = `<input type="text" name="r1[]" class='desc' placeholder="Ex:Pão">`
-row.insertCell(1).innerHTML = `<input type="text" name="r2[]" class='valor' placeholder="Ex:0.30" onkeyup="preencher(this)">`
-row.insertCell(2).innerHTML = `<input type="text" name="r3[]" class='quantidade' placeholder="Ex:10">`
+row.insertCell(0).innerHTML = `<input type="text" name="r1[]" class='desc' placeholder="Ex:Pão" onkeypress="return somenteLN(event)" required>`
+row.insertCell(1).innerHTML = `<input type="text" name="r2[]" class='valor' placeholder="Ex:0.30" onkeyup="preencher(this)" required>`
+row.insertCell(2).innerHTML = `<input type="text" name="r3[]" class='quantidade' placeholder="Ex:10" onkeypress="return somenteN(event)" required>`
 })
 
 //Remove a linha

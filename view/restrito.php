@@ -60,11 +60,6 @@
         </form>
     </main>
 
-    <footer>
-        <nav id="nav-footer-restrito">
-            <p>Desenvolvido por Lucas de Lima</p>
-        </nav>
-    </footer>
     <script src="javascript/main.js"></script>
 </body>
 </html>

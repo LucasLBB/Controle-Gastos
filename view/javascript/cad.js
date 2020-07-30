@@ -15,17 +15,17 @@ function senhaVerifica(){
     var corSenha = document.getElementById('senha');
 
 	if(senhaValorLen < minCaracter){
-        document.getElementById('resultado').innerHTML = 'Não atende aos requisitos';
+        document.getElementById('resultado').innerHTML = 'Não atende a todos os requisitos';
         corSenha.style.borderColor = "red";
         return false;
         
 	}else if(senhaValorLen >= minCaracter && regex.exec(senhaValor)){
-        document.getElementById('resultado').innerHTML = 'Perfeito';
+        document.getElementById('resultado').innerHTML = 'Ok!';
         corSenha.style.borderColor = "green";
         return true;
         
 	}else{
-        document.getElementById('resultado').innerHTML = 'Ainda falta requisitos';
+        document.getElementById('resultado').innerHTML = 'Requisitos Pendentes';
         corSenha.style.borderColor = "red";
 		return false;
 	}
