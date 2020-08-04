@@ -65,6 +65,7 @@ if($exec == true){
             alert("Cadastrado com Sucesso!");
             window.history.go(-1);
           </script>';
+    header('Location:../view/loginUser.php');
 }else{
     echo '<script type="text/javascript">
             alert("Erro ao cadastrar, tente novamente mais tarde!");

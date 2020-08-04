@@ -1,6 +1,8 @@
 //Requisitos da senha
 function senhaVerifica(){
 
+	//Resultado
+	let resultado = document.getElementById('resultado');
 	//Campo senha
 	let senha = document.getElementById('senha');
 	//Mínimo de caracteres
@@ -16,17 +18,20 @@ function senhaVerifica(){
 
 	if(senhaValorLen < minCaracter){
         document.getElementById('resultado').innerHTML = 'Não atende a todos os requisitos';
-        corSenha.style.borderColor = "red";
+		corSenha.style.borderColor = "red";
+		resultado.style.color = "red";
         return false;
         
 	}else if(senhaValorLen >= minCaracter && regex.exec(senhaValor)){
         document.getElementById('resultado').innerHTML = 'Ok!';
-        corSenha.style.borderColor = "green";
+		corSenha.style.borderColor = "green";
+		resultado.style.color = "green";
         return true;
         
 	}else{
         document.getElementById('resultado').innerHTML = 'Requisitos Pendentes';
-        corSenha.style.borderColor = "red";
+		corSenha.style.borderColor = "orangered";
+		resultado.style.color = "orangered";
 		return false;
 	}
 }

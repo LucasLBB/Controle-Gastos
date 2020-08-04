@@ -42,7 +42,6 @@ require_once "../model/conexao.php";
             </select>
 
             <input type="submit" id="btnEnviar" value="Enviar">
-
         </form>
     </main>
 </body>

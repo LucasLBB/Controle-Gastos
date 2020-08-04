@@ -5,8 +5,10 @@ body, h2, h1, p{
     font-family: 'Varta', sans-serif;
 }
 
-h2{
+a h2{
     font-size: 30px;
+    text-decoration: none;
+    color: white;
 }
 
 /* navbar */

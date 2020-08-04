@@ -30,10 +30,10 @@
         </form>
     </main>
     <!--Fim do Conteúdo Principal-->
-    <!--Inicio do Footer-->
-    <footer id="footer-login"> 
-        <p>Desenvolvido por Lucas de Lima</p>
-    </footer>
-    <!--Fim do Footer-->
+    
+    <?php
+    include "footer.php";
+    ?>
+    
 </body>
 </html>

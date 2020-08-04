@@ -20,7 +20,7 @@ try {
     $mail->Host       = 'smtp.sendgrid.net';                    
     $mail->SMTPAuth   = true;                                   
     $mail->Username   = 'apikey';                               
-    $mail->Password   = '********';//Coloque a sua senha aqui seja do sengrid ou de outro sistema de e-mails   
+    $mail->Password   = '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';   
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         
     $mail->Port       = 587;                                    
 

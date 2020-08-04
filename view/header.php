@@ -7,11 +7,11 @@
 <body>
     <!--Inicio do Header-->
     <header id="navbar">
-        <img src="img/logo.png" alt="Logo">
-        <h2>Controle de Gastos</h2>
+        <a href="restrito.php"><img src="img/logo.png" alt="Logo">
+        <h2>Controle de Gastos</h2></a>
         <nav>
             <ul id="nav-list">
-                <li><a href="#">Ajuda</a></li>
+                <li><a href="ajuda.php">Ajuda</a></li>
                 <li><a href="contato.php">Contato</a></li>
                 <li><a href="#">Sobre o Autor</a></li>
             </ul>

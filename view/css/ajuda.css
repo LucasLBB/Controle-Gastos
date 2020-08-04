@@ -1,0 +1,49 @@
+/* geral */
+
+h1, h2, p, ul, li {
+    margin: 0;
+}
+
+/* main */
+
+body {
+    background-color:rgb(216, 218, 219);
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+    color: rgb(12, 73, 17);
+}
+
+.para {
+    text-align: justify;
+    margin: 10px;
+    width: 55%;
+    margin-left: 290px;
+}
+
+#option {
+    margin-left: 290px;
+    margin-top: 50px;
+    color: rgb(12, 73, 17);
+}
+
+ul li {
+    margin: 20px 290px;
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(12, 73, 17);
+}
+
+.img{
+    margin-top: 20px;
+    margin-left: 420px;
+    color: rgb(12, 73, 17);
+}
+
+/* footer */

@@ -31,7 +31,6 @@
 
             <input type="submit" id="btnAlt" value="Alterar Item">
         </form>
-
     </main>
 
     <script src="javascript/main.js"></script>

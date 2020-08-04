@@ -20,15 +20,16 @@
         dessa forma poderei melhorar cada vez mais o site e a sua experiência &#128521</p>
         
         <form action="../controller/contatoEmail.php" method="POST">
-            <input type="text" id="nome" name="nome" placeholder="Seu nome">
 
             <input type="text" id="titulo" name="titulo" placeholder="Título">
+
+            <input type="text" id="nome" name="nome" placeholder="Seu nome">
 
             <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
            
             <input type="submit" id="btnMsg" value="Enviar Mensagem">
         </form>
     </main>
-    
+
 </body>
 </html>

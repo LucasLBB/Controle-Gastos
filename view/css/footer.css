@@ -1,0 +1,7 @@
+/* footer */
+#footer-login p{
+    margin: 0;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(12, 73, 17);
+}
