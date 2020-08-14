@@ -25,10 +25,12 @@ main form input{
     margin: 20px;
     margin-left: 565px;
     border: rgb(12, 73, 17) 1px solid;
+    resize: vertical;
 }
 
 #msg{
     border: rgb(12, 73, 17) 1px solid;
+    resize: none;
 }
 
 main form{
@@ -39,3 +41,4 @@ main form{
 #btnMsg{
     margin-left: 570px;
 }
+

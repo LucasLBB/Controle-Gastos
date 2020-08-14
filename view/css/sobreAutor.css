@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(216, 218, 219);
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.p-text {
+    margin-top: -50px;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.subtitulo {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.imagem {
+    margin: 30px;
+} 

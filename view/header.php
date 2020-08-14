@@ -13,7 +13,7 @@
             <ul id="nav-list">
                 <li><a href="ajuda.php">Ajuda</a></li>
                 <li><a href="contato.php">Contato</a></li>
-                <li><a href="#">Sobre o Autor</a></li>
+                <li><a href="sobreAutor.php">Sobre o Autor</a></li>
             </ul>
         </nav>
     </header>

@@ -20,7 +20,7 @@ try {
     $mail->Host       = 'smtp.sendgrid.net';                    
     $mail->SMTPAuth   = true;                                   
     $mail->Username   = 'apikey';                               
-    $mail->Password   = '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';   
+    $mail->Password   = 'senha do sendGrid';   
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         
     $mail->Port       = 587;                                    
 
@@ -35,7 +35,15 @@ try {
     $mail->Body    = $mensagem;
 
     $mail->send();
-    echo 'Mensagem Enviada com Sucesso';
+    
+    echo '<script type="text/javascript">
+            alert("Mensagem Enviada!");
+            window.history.go(-1);
+          </script>';
+
 } catch (Exception $e) {
-    echo "Erro ao Enviar a Mensagem. Tente Novamente!!!";
+    echo '<script type="text/javascript">
+            alert("Erro ao enviar a mensagem, tente novamente!");
+            window.history.go(-1);
+          </script>';
 }

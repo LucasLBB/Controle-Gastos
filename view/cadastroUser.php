@@ -18,9 +18,9 @@
 
                 <div><input type="text" id="nome" name="nome" placeholder="Nome" size="25" required></div>
 
-                <div><input type="password" id="senha" name="senha" placeholder="Senha" onkeyup="return senhaVerifica(this)" size="25" required></div>
-
                 <div><input type="text" id="email" name="email" placeholder="E-mail" size="25" pattern="^\w*(\.\w*)?@\w*\.[a-z]+(\.[a-z]+)?$" required></div>
+
+                <div><input type="password" id="senha" name="senha" placeholder="Senha" onkeyup="return senhaVerifica(this)" size="25" required></div>
 
                 <input type="submit" id="btnCad" value="Cadastrar">
 
