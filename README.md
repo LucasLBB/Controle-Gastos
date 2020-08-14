@@ -1,4 +1,4 @@
-![Logo of the project](https://github.com/LucasLBB/Controle-Gastos/blob/master/readme_images/logo.PNG)
+![Logo of the project]()
  
 ## Spending Control
  
